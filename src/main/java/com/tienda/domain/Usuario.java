@@ -36,6 +36,8 @@ public class Usuario implements Serializable {
     
     private String nombre;
     
+    private String correo;
+    
     private String apellidos;
     
     private String telefono;
