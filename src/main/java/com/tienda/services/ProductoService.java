@@ -17,7 +17,7 @@ public interface ProductoService {
     //Se propone la firma de un metodo para
     //recuperar los registros de la tabla Producto
     
-    public List<Producto> getProductos(Boolean activo);
+    public List<Producto> getProductos(boolean activo);
     
     //Se programa el codigo para obtener una Producto
     

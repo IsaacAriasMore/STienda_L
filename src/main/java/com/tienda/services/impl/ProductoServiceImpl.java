@@ -19,7 +19,7 @@ public class ProductoServiceImpl implements ProductoService {
 
     @Transactional(readOnly = true)
 
-    public List<Producto> getProductos(Boolean activo) {
+    public List<Producto> getProductos(boolean activo) {
 
         var productos = productoDao.findAll();
 
